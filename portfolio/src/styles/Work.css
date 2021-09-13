@@ -1,8 +1,40 @@
-.work {
-  background: #fff8e1;
-  padding: 20px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  height: 100vh;
+
+  margin: auto;
 }
 
-.work h2 {
-  text-align: center;
+.card-container {
+  position: relative;
+
+  width: 36rem;
+  height: 22rem;
 }
+
+.background-block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.card-container svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-size: 3rem;
+
+  color: gray;
+}
+
+.card-container svg:hover {
+  cursor: pointer;
+  color: blue;
+}
+

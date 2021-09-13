@@ -1,14 +1,21 @@
 import React from 'react';
-import '../styles/Work.css'
+
+import '../styles/Work.css';
+import Card from './Card';
+import { data } from './data';
 
 const Work = () => {
+    
     return (
-        <section className="work">
-            <h2>Work Samples</h2>
-            <p>put a card here</p>
-            <p>put a card here</p>
-        </section>
-    )
-}
+        <div className="Work">
+            <div className="container">
+                {data.map((project) => {
+                    return <Card key={project.id} {...project} />;
+                })}
+            </div>
+        </div>
+    );
+};
 
-export default Work
+export default Work;
+
