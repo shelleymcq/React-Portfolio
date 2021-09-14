@@ -6,16 +6,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 80%;
   height: 100vh;
-
   margin: auto;
 }
 
 .card-container {
   position: relative;
-
   width: 36rem;
   height: 36rem;
 }
@@ -24,34 +21,23 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-
   font-size: 3rem;
-
-  color: gray;
+  color: #88a0a8;
 }
 
 .card-container svg:hover {
   cursor: pointer;
-  color: blue;
+  color: #145c74;
 }
 
 .card {
   position: absolute;
-
-  height: 20rem;
+  height: 33rem;
   width: 20rem;
-
   margin: 1rem;
-
-  background-color: teal;
-
-  border-radius: .5rem;
-
+  background-color: white;
   text-align: center;
-  text-transform: capitalize;
-
   box-sizing: border-box;
-
   user-select: none;
 }
 
@@ -62,11 +48,18 @@
 .card img {
   height: 15rem;
   width: 20rem;
-
   object-fit: cover;
   object-position: top;
-
   pointer-events: none;
+}
+
+.card a {
+  padding: 2rem;
+}
+
+.card .links {
+  background-color: #86cae0;
+  padding: 1rem;
 }
 
 .prevCard {
