@@ -1,3 +1,7 @@
+.Work {
+  background-color: #faf6e9;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -16,13 +20,6 @@
   height: 22rem;
 }
 
-.background-block {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
 .card-container svg {
   position: absolute;
   top: 50%;
@@ -38,3 +35,80 @@
   color: blue;
 }
 
+.card {
+  position: absolute;
+
+  height: 20rem;
+  width: 10rem;
+
+  margin: 1rem;
+
+  background-color: teal;
+
+  border-radius: 1rem;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  box-sizing: border-box;
+
+  user-select: none;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card img {
+  height: 15rem;
+  width: 10rem;
+
+  object-fit: cover;
+  object-position: top;
+
+  pointer-events: none;
+}
+
+.prevCard {
+  left: calc(0% + 2rem);
+  opacity: 0;
+}
+
+/* centers card to itself */
+.activeCard {
+  left: 50%;
+  transform: traslateX(-50%);
+}
+
+.nextCard {
+  left: 100%;
+  transform: translateX(calc(-100% - 2rem));
+  opacity: 0;
+}
+
+.leftBtn {
+  left: -1rem;
+}
+
+.rightBtn {
+  right: -1rem;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .card-container {
+    width: 80%;
+  }
+
+  .prevCard {
+    left: -35%;
+  }
+
+  .nextCard {
+    left: 135%;
+  }
+}
