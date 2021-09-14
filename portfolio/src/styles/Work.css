@@ -17,7 +17,7 @@
   position: relative;
 
   width: 36rem;
-  height: 22rem;
+  height: 36rem;
 }
 
 .card-container svg {
@@ -39,13 +39,13 @@
   position: absolute;
 
   height: 20rem;
-  width: 10rem;
+  width: 20rem;
 
   margin: 1rem;
 
   background-color: teal;
 
-  border-radius: 1rem;
+  border-radius: .5rem;
 
   text-align: center;
   text-transform: capitalize;
@@ -61,7 +61,7 @@
 
 .card img {
   height: 15rem;
-  width: 10rem;
+  width: 20rem;
 
   object-fit: cover;
   object-position: top;
@@ -76,7 +76,7 @@
 
 /* centers card to itself */
 .activeCard {
-  left: 50%;
+  left: 20%;
   transform: traslateX(-50%);
 }
 
