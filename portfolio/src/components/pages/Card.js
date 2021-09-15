@@ -1,7 +1,6 @@
 import React from 'react';
 
 const {PUBLIC_URL} = process.env;
-console.log(PUBLIC_URL);
 
 const Card = ({ name, img, repo, deployed, link, description, tech, cardStyle }) => {
     return (
@@ -14,7 +13,9 @@ const Card = ({ name, img, repo, deployed, link, description, tech, cardStyle })
             </div>  
             <div className={'links'}>
                 <a href={repo} target="_blank" rel="noopener noreferrer">The Repo</a>
-                {deployed && <a href={link} target="_blank" rel="noopener noreferrer">The App</a>}
+                {/* if deployed and link are true, render link */}
+                {deployed && 
+                    <a href={link} target="_blank" rel="noopener noreferrer">The App</a>}
             </div>
         </div>
     );

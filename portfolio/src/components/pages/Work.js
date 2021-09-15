@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/Work.css';
+import '../../styles/Work.css';
 import Card from './Card';
 import { data } from './data';
 
