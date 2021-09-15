@@ -9,6 +9,7 @@ import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons
 
 import { useState } from 'react';
 
+const {PUBLIC_URL} = process.env;
 
 const Work = () => {    
     

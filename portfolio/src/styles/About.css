@@ -1,13 +1,16 @@
 .about {
     background: #145c74;
-    padding: 20px;
+    padding: 2rem;
+    margin-top: 8rem;;
+    max-width: 80%;
+    justify-content: center;
   }
   
   .about h2 {
-    text-align: center;
     color: white;
   }
 
   .about p {
     color: white;
   }
+

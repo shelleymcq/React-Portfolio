@@ -2,10 +2,13 @@
   background-color: #faf6e9;
 }
 
+.Work .skills {
+  align-items: center;
+}
+
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 80%;
   height: 100vh;
   margin: auto;
@@ -13,6 +16,8 @@
 
 .card-container {
   position: relative;
+  justify-content: center;
+  margin-top: 8rem;
   width: 36rem;
   height: 36rem;
 }

@@ -1,15 +1,13 @@
 .home {
   background: #ffe082;
-  height: 200px;
+  margin-top: 8rem;
+  height: 100vh;
   text-align: center;
   color: black;
 }
 
 .home h1 {
   margin: 0;
-  padding: 20px 0 75px ;
+  padding: 50px 0 75px ;
 }
 
-.home img {
-  margin-top: -4rem;
-}

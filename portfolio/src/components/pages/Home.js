@@ -6,7 +6,7 @@ const {PUBLIC_URL} = process.env;
 const Home = () => {
     return (
         <section className="home">
-            <h1>web developer & science educator</h1>
+            <h1>full stack web developer & science educator</h1>
             <img src={PUBLIC_URL + "images/molecule.png"} alt="graphic of molecule" />
         </section>
     )
