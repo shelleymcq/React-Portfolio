@@ -1,10 +1,6 @@
-body {
-    background-color: #145c74;
-}
-
 .navbar {
         overflow: hidden;
-        background-color: #333;
+        background-color: #203842;
         position: fixed; 
         top: 0; 
         width: 100%; 
@@ -13,7 +9,7 @@ body {
 
 .navbar h1 {
     padding-left: 10px;
-    color: white;
+    color: #faf6e9;
 }
 
 .navbar a:hover {
@@ -24,7 +20,7 @@ body {
 a.nav-link {
     display: block;
     float: right;
-    color: white;
+    color: #faf6e9;
     text-decoration: none;
     padding: 10px 15px;
 }

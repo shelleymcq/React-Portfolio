@@ -5,6 +5,8 @@ import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
 
+const {PUBLIC_URL} = process.env;
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -28,6 +30,9 @@ export default function PortfolioContainer() {
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <footer>
+        Made with <img src={PUBLIC_URL + "/images/molecule-foot.png"} /> by Shelley McHardy
+      </footer>
     </div>
   );
 }

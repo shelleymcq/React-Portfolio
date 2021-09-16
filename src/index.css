@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #145c74;
+  color: #faf6e9;
 }
 
 code {
@@ -16,3 +18,13 @@ ul {
   list-style-type: none;
 }
 
+footer {
+  background-color: #203842;
+  color: #faf6e9;
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
