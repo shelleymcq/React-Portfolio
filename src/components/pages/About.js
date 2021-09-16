@@ -6,7 +6,7 @@ const {PUBLIC_URL} = process.env;
 const About = () => {
     return (
         <section className="about">
-            <img src={PUBLIC_URL + 'images/mchardy-head-sm.png'} alt="headshot of woman with mountains in background" />
+            <img src={PUBLIC_URL + '/images/mchardy-head-sm.png'} alt="headshot of woman with mountains in background" />
             <h2>About Me</h2>
             <div>
                 <p>Originally from the San Francisco Bay Area, I moved to Atlanta for a job teaching chemistry. I enjoyed it enough that I thought I might be able to handle the summer heat for at least a couple years. Then I discovered Dragon Con, the amazing Georgia State Parks, and a group of nerdy friends. That was 2010. Summer is still too hot, but it's an OK trade off. And since I'm completing the Georgia Tech Full Stack Coding Bootcamp virtually, I can avoid the worst of the heat.</p>

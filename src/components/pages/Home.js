@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <section className="home">
             <h1>full stack web developer & science educator</h1>
-            <img src={PUBLIC_URL + "images/molecule.png"} alt="graphic of molecule" />
+            <img src={PUBLIC_URL + "/images/molecule.png"} alt="graphic of molecule" />
         </section>
     )
 }
