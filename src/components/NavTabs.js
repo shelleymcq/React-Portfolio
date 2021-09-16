@@ -4,7 +4,7 @@ import '../styles/NavTabs.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="navbar">
-      <h1>Shelley McHardy </h1>
+      <h1>Shelley McHardy</h1>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
