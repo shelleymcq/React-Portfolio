@@ -2,10 +2,6 @@
   background-color: #568a82;
 }
 
-.Work .skills {
-  align-items: center;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -17,7 +13,7 @@
 .card-container {
   position: relative;
   justify-content: center;
-  margin-top: 8rem;
+  margin-top: 4rem;
   width: 36rem;
   height: 36rem;
 }
@@ -37,17 +33,14 @@
 
 .card {
   position: absolute;
-  height: 33rem;
+  height: 30rem;
   width: 20rem;
   margin: 1rem;
   background-color: white;
   text-align: center;
   box-sizing: border-box;
   user-select: none;
-}
-
-.card:hover {
-  cursor: pointer;
+  color: #083e50;
 }
 
 .card img {
@@ -56,6 +49,11 @@
   object-fit: cover;
   object-position: top;
   pointer-events: none;
+}
+
+.card p {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .card a {

@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
 import Work from './pages/Work';
-import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
 const {PUBLIC_URL} = process.env;
 
@@ -21,7 +21,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'About') {
       return <About />;
     }
-    return <Contact />;
+    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

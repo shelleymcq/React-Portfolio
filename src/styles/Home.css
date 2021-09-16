@@ -1,6 +1,6 @@
 .home {
   background: #ffe082;
-  margin-top: 8rem;
+  margin-top: 4rem;
   height: 100vh;
   text-align: center;
   color: black;
@@ -8,6 +8,7 @@
 
 .home h1 {
   margin: 0;
-  padding: 50px 0 75px ;
+  padding: 2rem;
+  font-size: 36px;
 }
 

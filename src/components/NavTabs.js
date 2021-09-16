@@ -4,15 +4,14 @@ import '../styles/NavTabs.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="navbar">
-      <h1>Shelley McHardy</h1>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
-            href="#contact"
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            href="#resume"
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
           >
-            Contact
+            Resume
           </a>
         </li>
         <li className="nav-item">
