@@ -91,14 +91,4 @@
   right: -1rem;
 }
 
-@media screen and (max-width: 479px) {
-  .container {
-    width: 100%;
-    overflow: auto;
-  }
-
-  .card-container {
-    width: 70%;
-  }
-}
 
