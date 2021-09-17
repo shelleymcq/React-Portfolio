@@ -91,21 +91,14 @@
   right: -1rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 479px) {
   .container {
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
   }
 
   .card-container {
-    width: 80%;
-  }
-
-  .prevCard {
-    left: -35%;
-  }
-
-  .nextCard {
-    left: 135%;
+    width: 70%;
   }
 }
+
