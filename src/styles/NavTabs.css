@@ -7,11 +7,6 @@
         height: 4rem;
 }
 
-.navbar h1 {
-    padding-left: 10px;
-    color: #faf6e9;
-}
-
 .navbar a:hover {
     background: #ddd;
     color: black;
@@ -22,6 +17,6 @@ a.nav-link {
     float: right;
     color: #faf6e9;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px;
 }
 

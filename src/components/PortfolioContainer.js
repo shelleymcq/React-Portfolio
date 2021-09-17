@@ -35,7 +35,7 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <footer>
-        Made with <img src={PUBLIC_URL + "/images/molecule-foot.png"} alt="molecule icon" /> by Shelley McHardy
+        <img src={PUBLIC_URL + "/images/molecule-foot.png"} alt="molecule icon" /> Shelley McHardy
         <a href="https://github.com/shelleymcq" target="_blank" rel="noopener noreferrer"><img src={PUBLIC_URL + "/images/icons/github-icon.png"} alt="github icon" /></a>
         <a href="https://www.linkedin.com/in/shelleymchardy/" target="_blank" rel="noopener noreferrer"><img src={PUBLIC_URL + "/images/icons/linkedin-icon.png"} alt="linkedin icon" /></a>
         <a href="mailto:shelleymcq.dev@gmail.com"><img src={PUBLIC_URL + "/images/icons/email-icon.png"} alt="email icon" /></a>
