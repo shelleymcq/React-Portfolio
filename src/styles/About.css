@@ -1,18 +1,17 @@
 .about {
     background: #145c74;
-    padding: 2rem;
-    margin-top: 4rem;;
-    max-width: 80%;
-    justify-content: center;
-  }
+    margin-top: 4rem;
+    padding-left: 2rem;
+    width: 80%
+}
   
-  .about h2 {
-    color: #faf6e9;
-  }
+.about h2 {
+  color: #faf6e9;
+}
 
-  .about p {
-    color: #faf6e9;
-  }
+.about p {
+  color: #faf6e9;
+}
 
 .about .skills {
   padding-bottom: 4rem;

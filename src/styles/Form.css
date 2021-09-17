@@ -1,0 +1,23 @@
+.form-container {
+    background-color: #145c74;
+    margin-top: 4rem;
+    height: 100vh;
+  }
+
+.form input {
+    display: block;
+    margin-left: 2rem;
+    margin-bottom: 5px;
+    width: 30%;
+  }
+  
+.form button {
+    display: block;
+    margin-left: 2rem;
+  }
+  
+.form h2 {
+    margin-left: 2rem;
+    padding-top: 1rem;
+    color: #faf6e9;
+  }
