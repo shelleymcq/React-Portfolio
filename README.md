@@ -12,10 +12,7 @@ An updated portfolio showcasing my increasing knowledge of web development tools
 
 ## Usage
 #### _Deployed App_
-https://shelleymcq.github.io/React-Portfolio/#home
-
-homepage
-<img src="https://github.com/shelleymcq/React-Portfolio/blob/main/public/images/homepage.png">
+https://shelleymcq.github.io/React-Portfolio/
 
 ## Skills
 * HTML
