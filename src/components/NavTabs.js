@@ -1,9 +1,12 @@
 import React from 'react';
 import '../styles/NavTabs.css';
 
+const {PUBLIC_URL} = process.env;
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="navbar">
+      <img src={PUBLIC_URL + "/images/sm-logo.png"} alt="HTML5 icon" /> 
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a

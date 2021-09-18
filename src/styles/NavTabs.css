@@ -7,6 +7,11 @@
         height: 4rem;
 }
 
+.navbar img {
+    position: fixed;
+    padding: 1rem;
+}
+
 .navbar a:hover {
     background: #ddd;
     color: black;
