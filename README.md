@@ -14,7 +14,7 @@ An updated portfolio showcasing my increasing knowledge of web development tools
 #### _Deployed App_
 https://shelleymcq.github.io/React-Portfolio/
 
-### homepage
+#### homepage
 ![hompage](https://user-images.githubusercontent.com/81432121/134426958-0d33af0d-d96d-4310-96c7-bc4315f32691.png)
 
 ## Skills
